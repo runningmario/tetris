@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Play Atari Breakout Online</title>
+<meta name="description" content="Let's play atari breakout for free! smash all the colorful bricks on the screen and don't lose the ball!">
+<link rel="shortcut icon" href="../images/favicon.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<div class="topnav"></div>
+<header class="game-header">
+<div class="header-container">
+<nav>
+<input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+<i class="fas fa-bars"></i>
+</label>
+<label class="logo">TETRIS GAME</label>
+<ul>
+<li><a href="../">Home</a></li>
+<li><a href="../classic/">Tetris Classic</a></li>
+<li><a href="../breakout/">Breakout</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="wrapper">
+<div class="content">
+<div class="game-container">
+<aside class="game-sidebar left">
+<div class="sidebar-content">
+<!-- iklan disini-->
+</div>
+</aside>
+<div align="center">
+<canvas id="stage" width="320" height="416"></canvas>
+</div>
+<aside class="game-sidebar right">
+<div class="sidebar-content">
+ <!-- iklan disini-->	 
+</div>
+</div>
+<div class="panel description">
+<p style="text-align:center; margin-bottom: 5px;">You May Also Want To Play...</p>
+<div class="desc-list">
+<div>
+<div class="center-img">			 
+<a href="../"><img src="../modern-tetris.png"></a> 
+</div>
+</div>
+<div>
+<div class="center-img">			 
+<a href="/classic/"><img src="../tetris-classic.png"></a> 
+</div>
+</div>
+<div class="center-img">			 
+<a href="/classic/"><img src="../breakout.png"></a> 
+</div>
+</div>
+
+<div class="gamedescription">		  
+<p>
+Breakout is an arcade game developed and published by Atari, Inc. and released on May 13, 1976 by Namco.
+<br>
+The objective is to smash all the colorful bricks on the screen and don't lose the ball. 
+Use a paddle to bounce a ball back and forth to catch the ball before it falls down off of the screen, keep the ball in play for as long as possible. 
+You have three lives and each time you fail to catch the ball, you lose one life.
+Challenge your friend and try to score better than him/her.
+</p>	
+</div>	  
+</div>
+<script type="text/javascript" src="lib/createjs-2014.12.12.min.js"></script>
+<script type="text/javascript" src="js/entities/Ball.js"></script>
+<script type="text/javascript" src="js/entities/Brick.js"></script>
+<script type="text/javascript" src="js/entities/Paddle.js"></script>
+<script type="text/javascript" src="js/entities/Level.js"></script>
+<script type="text/javascript" src="js/entities/SplashScreen.js"></script>
+<script type="text/javascript" src="js/entities/GameOverScreen.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+<div class="footer">
+<p class="copyright">© tetris-game.io. All Right Reserved</p>
+<ul>
+<li><a href="../privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+<li><a href="../term-of-service.html" class="footer-link">Terms of Service</a></li>
+</ul>
+</div>
+</body>
+</html>
