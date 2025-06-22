@@ -748,9 +748,10 @@ align-items: center;
 
 .btn.restart-btn {
   background: #00A603;
-  color: white;
+  color: #fbff0d;
   border: none;
   padding: 10px 20px;
+  border: 2px solid #fff;
   border-radius: 5px;
   font-family:'VT323', monospace;
   font-size: 1.3em;
@@ -760,16 +761,17 @@ align-items: center;
 }
 
 .btn.restart-btn:hover {
-  background: #019104;
-  color: #fbff0d;
+  background: #02b505;
+  color: #fff;
   transform: scale(1.05);
 }
 
 .btn.back-btn {
   background: #015BEB;
-  color: white;
+  color: #fbff0d;
   border: none;
   padding: 10px 20px;
+  border: 2px solid #fff;
   border-radius: 5px;
   font-family:'VT323', monospace;
   font-size: 1.3em;
@@ -780,7 +782,7 @@ align-items: center;
 
 .btn.back-btn:hover {
   background: #0053d9;
-  color: #fbff0d;
+  color: #fff;
   transform: scale(1.05);
 }
 
