@@ -747,7 +747,7 @@ align-items: center;
 }
 
 .btn.restart-btn {
-  background: #E81C25;
+  background: #00A603;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -760,7 +760,8 @@ align-items: center;
 }
 
 .btn.restart-btn:hover {
-  background: #388e3c;
+  background: #019104;
+  color: #fbff0d;
   transform: scale(1.05);
 }
 
@@ -778,7 +779,8 @@ align-items: center;
 }
 
 .btn.back-btn:hover {
-  background: #1976d2;
+  background: #0053d9;
+  color: #fbff0d;
   transform: scale(1.05);
 }
 
