@@ -896,38 +896,6 @@ align-items: center;
     position: relative;
     overflow-y: auto;
   }
-  
-   .checkbtn {
-      display: block;
-      order: 1;
-      margin-right: 20px;
-    }
-  
-    ul {
-      position: fixed;
-      top: 55px;
-      right: -100%;
-      background-color: #01273E;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      transition: all 0.3s;
-    }
-  
-    ul li {
-      margin: 20px 0;
-    }
-  
-    ul li a {
-      font-size: 20px;
-    }
-  
-    #check:checked ~ ul {
-      right: 0;
-    }  
 
   .panel {
     min-width: 150px;
@@ -957,6 +925,38 @@ align-items: center;
   .score-item .value {
     font-size: 1em; 
   }
+  
+  .checkbtn {
+      display: block;
+      order: 1;
+      margin-right: 20px;
+    }
+  
+    ul {
+      position: fixed;
+      top: 55px;
+      right: -100%;
+      background-color: #01273E;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+    }
+  
+    ul li {
+      margin: 20px 0;
+    }
+  
+    ul li a {
+      font-size: 20px;
+    }
+  
+    #check:checked ~ ul {
+      right: 0;
+    }  
 }
 
 @media (max-width: 480px) {
@@ -967,6 +967,10 @@ align-items: center;
   .wrapper {
     padding: 0;
   }
+  
+ .game-sidebar {
+	 display:none;
+ }
 
   .panel {
     min-width: 100%;
